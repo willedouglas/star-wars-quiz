@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Testing
+coverage
+
+# Production
+build
+
+# Misc
+.DS_Store
+Thumbs.db
+.env
+.idea
+npm-debug.log
+compilation-stats.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

@@ -1,0 +1,78 @@
+.game-img {
+  width: 100px;
+} 
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.score-info,
+.modal-game,
+.modal-loading {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+
+  .people-description {
+    padding: 15px 0px 0px 15px;
+  }
+
+  &.between {
+    justify-content: space-between
+  }
+
+  &.loading {
+    flex-direction: column;
+  }
+
+  .points {
+    font-size: 11px;
+  }
+}
+
+.container-description {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px 0px 15px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-score {
+  .score-info {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  
+  .score-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .score-buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+.modal-highscore {
+  .highscore-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+}
