@@ -1,5 +1,5 @@
 # quiz-star-wars
-Simple star wars quiz game developed 4 fun.
+Simple Star Wars Quiz game developed 4 fun.
 
 Try this is a simple [React](https://facebook.github.io/react/), [Webpack](http://webpack.github.io/) and [Babel](https://babeljs.io/) application with [Jest](https://facebook.github.io/jest/) and [Enzyme](https://github.com/airbnb/enzyme).
 
@@ -36,7 +36,7 @@ Open the web browser to `http://localhost:8080/`
 npm run build
 ```
 
-### ESLint
+### To check ESLint:
 There is a .eslint.yaml config for eslint ready with React plugin.
 
 To do the actual linting, run:
